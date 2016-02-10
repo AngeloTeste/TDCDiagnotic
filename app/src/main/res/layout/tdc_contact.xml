@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/miniLogo"
+        android:layout_width="200sp"
+        android:layout_height="250sp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/miniLogo"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_alignBottom="@id/miniLogo"
+        android:layout_alignTop="@id/miniLogo"
+        android:id="@+id/linearLayout">
+
+
+    <TextView
+        android:id="@+id/entreprise"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+        android:text="@string/entreprise"/>
+
+
+
+        <FrameLayout
+            android:id="@+id/adr"
+            android:layout_below="@id/miniLogo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/ad"
+                android:layout_width="fill_parent"
+                android:layout_height="19dp"
+                android:background="@color/transparent"></Button>
+
+
+
+            <TextView
+        android:id="@+id/adresse1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/adresse1"
+        android:autoLink="email"        />
+        </FrameLayout>
+
+    <TextView
+        android:id="@+id/adresse2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/adresse2"/>
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/tel"
+        android:layout_below="@id/miniLogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/appel"
+            android:layout_width="fill_parent"
+            android:layout_height="19dp"
+            android:background="@color/transparent"/>
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/tel"
+        android:autoLink="phone"/>
+    </FrameLayout>
+
+    <FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/email"
+    android:layout_below="@id/tel">
+
+    <Button
+        android:id="@+id/mail"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="@color/transparent"/>
+
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:autoLink="email"
+        />
+
+</FrameLayout>
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/site"
+        android:layout_below="@+id/email"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lesBoutons"
+        android:text="@string/code"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/veritas"
+        android:layout_above="@id/code"
+        android:layout_alignParentRight="true"/>
+    <LinearLayout
+        android:id="@+id/lesBoutons"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.01"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:padding="1sp"
+        android:weightSum="1">
+
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:id="@+id/accueil"
+                android:background="@color/transparent"
+                />
+
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/accueil"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/diag"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/transparent"
+                />
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/loupe"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/photo"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/transparent"
+                />
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/photo"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/prestation"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/transparent"
+                />
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/services"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Red">
+            <Button
+                android:id="@+id/contact"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/transparent"
+                />
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mail"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

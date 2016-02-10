@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prestations">
+        <item> Diagnostic amiante</item>
+        <item> Diagnostic plomb</item>
+        <item> Diagnostic gaz</item>
+        <item> Diagnostic électricité</item>
+        <item> Diagnostic énergétique</item>
+        <item> Diagnostic des risques</item>
+        <item> Diagnostic termites</item>
+        <item> Certificat de Superficie</item>
+    </string-array>
+</resources>

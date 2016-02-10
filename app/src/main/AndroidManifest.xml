@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ap.myapplication2" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        >
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.ap.myapplication2.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LogoActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ContactActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+         </activity>
+
+        <activity android:name=".PhotoActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".CarrezToast"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".AmianteToast"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".PlombToast"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".GazToast"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".ElecToast"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".TermitesToast"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".RisqueToast"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".EnergieToast"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+
+
+        <activity android:name=".DiagActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity android:name=".PrestationActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity android:name=".Email"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity android:name=".DevisActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+
+
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">TDCDiag</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="entreprise">T.D.C Diagnostic</string>
+    <string name="adresse1"> 10, rue du colonel Rozanoff</string>
+    <string name="adresse2"> 75012 Paris</string>
+    <string name="tel"> <u>01 44 87 94 49</u></string>
+    <string name="email"> contact@tdc-diagnostic.com</string>
+    <string name="site"> www.tdc-diagnostic.com</string>
+    <string name="titre"> DIAGNOSTIC IMMOBILIER</string>
+    <string name="engagement">-   Une intervention rapide (sous 24 heures).\n\n-   Remise rapides des rapports (sous 24 heures) sauf en cas d’analyse amiante en laboratoire (agréé par le COFRAC) ou non transmission de certains éléments par le donneur d’ordre.\n\n-   Un respect de l’application des normes pour chaque intervention.\n\n-   Des tarifs compétitifs (indexés sur les prix du marché).</string>
+    <string name="code"> R.C.S. Paris 531 402 923 – code APE 71.20B – Assurances GAN n°808103020 </string>
+    <string name="q1">Vous vendez une maison ou un appartement ?</string>
+    <string name="r1">Vous êtes dans l´obligation de faire effectuer un diagnostic immobilier par des professionnels qualifiés. Nos équipes s´engagent à se rendre sur place dans les meilleurs délais pour un diagnostic complet de votre bien, et vous garantissent une qualité de service optimale au meilleur prix.\n</string>
+    <string name="q2">\nQuels diagnostics effectuer ?</string>
+    <string name="r2">Avant toute transaction immobilière, le vendeur doit être en mesure de présenter aux futurs acquéreurs un bilan complet de son bien concernant le gaz, le plomb, les termites, la loi carrez, l´amiante, l´installation électrique ou encore les performances énergétiques de la construction.\n</string>
+    <string name="q3">\nCombien ça coûte ?</string>
+    <string name="r3">Le prix du diagnostic de votre bien immobilier dépend de sa surface, de sa situation géographique et de son année de construction.\n</string>
+    <string name="q4">\n Pourquoi réaliser ce diagnostic avant d\'avoir trouver votre acquéreur ?</string>
+    <string name="r4">« les diagnostics sont obligatoires lors de la vente et, dans certains cas, la mise en location d’un bien. Ils permettent au propriétaire d’avoir des arguments solides en terme de fiabilité et de sécurité car ils sont établis par un professionnel certifié ».</string>
+
+    <string name="pres"> Nos Prestations</string>
+    <string name="indi">Cliquez sur les images ci-dessous pour accéder au diagnostic désiré</string>
+
+    <string name="carre"> Certificat de Superficie – Loi Carrez\n </string>
+
+    <string name="carrez"> Le calcul de la superficie privative d\’un bien immobilier (appartement, local commercial ou professionnel) d\’au mois 8 m2 est rendu obligatoire pour tout compromis ou promesse de vente ( Loi L96-1107 du 18 décembre 1996, décret d\’application 97-532 du 23 mai 1997).\n\nPour les biens mis en location, on parlera de « surface habitable » ( loi Boutin).\n</string>
+
+    <string name="carrezz">Durée de validité : illimité sauf en cas de modification du bien (conseillé à chaque changement de propriétaire ou locataire).</string>
+
+    <string name="amiant"> Diagnostic Amiante\n</string>
+    <string name="amiante">Le diagnostic amiante est obligatoire en cas de vente d\’un immeuble bâti dont le permis de construire a été délivré avant le 1er juillet 1997.\n il s\’agit  de rechercher des matériaux ou produits pouvant contenir de l\’amiante qui pourraient causer de graves troubles à l\’organisme. Dans le cadre de cette recherche, des prélèvements  pour analyse en laboratoire pourraient être pratiquées.\n Sont concernés les appartements, les maisons, les locaux commerciaux et professionnels, les caves et les emplacements de stationnement.</string>
+    <string name="amiantee">\n Durée de validité : renouvellement à chaque changement de propriétaire.</string>
+
+    <string name="plom">Constat de Risques d\’Exposition au Plomb</string>
+    <string name="plomb">Le CREP a remplacé les anciens ERAP par les 4 arrêtés du 25 avril 2006.Il s\’agit de rechercher le taux de plomb contenu dans les revêtements, généralement dans les peintures, et de constater l\’état de dégradation des supports afin de prendre des dispositions pour éviter les risque d\’exposition au plomb pour les occupants et éventuellement pour les opérateurs de travaux en charge de les réaliser.L\’inhalation des particules de plomb est extrêmement dangereuse pour l\’organisme.Ces mesures sont prises à l\’aide d\’un analyseur à fluorescence X, dont la détention est soumise à un agrément de l\’Autorité de la Sureté Nucléaire, et la manipulation par une personne compétente en radioprotection (PCR).</string>
+    <string name="plombe">A compter du 11 août 2008 le constat de risque d\’exposition au plomb devra être annexé à tout contrat de location.\nDurée de validité :\n-   illimité si négatif\n-   1 an si positif (vente)\n-   6 ans si positif (location)  </string>
+
+    <string name="ga">Diagnostic de l\'état de l\’installation intérieure de Gaz</string>
+    <string name="gaz">Ce diagnostic, par Arrêté du 6 avril 2007, devient obligatoire, en cas de vente, à compter du 1er novembre 2007, dans les parties privatives des locaux à usage d\’habitation et leurs dépendances en respectant les exigences méthodologiques définies dans l’Arrêté du 02  août 1977 modifié et dans la loi 2003-8 du 03 janvier 2006.\nLes mesures d\’émanation en CO² sont effectuées à l\’aide d\’un Analyseur KIMO</string>
+    <string name="gaze">\nDurée de validité : 3 ans.</string>
+
+    <string name="termit">Diagnostic Termites</string>
+    <string name="termite">En cas de vente d\’un immeuble bâti dans une zone délimitée par le préfet ou la municipalité, il est impératif de faire réaliser un état termites pour savoir si le bien est infesté ou non. Il concerne les appartements, les maisons, les locaux commerciaux ou professionnels, les caves, les garages et emplacements de stationnement, et les terrains non bâtis.\n Une clause d\’exonération de vice caché ne pourra être stipulé dans l\’acte authentique de vente si un état relatif à la présence de termites n\’est pas annexé.</string>
+    <string name="termites">Durée de validité : 6 mois.</string>
+
+    <string name="risqu"> Etat des risques naturels et technologiques</string>
+    <string name="risque">L\’Etat des Risques Naturels et Technologiques est un document obligatoire depuis le 1er janvier 2006 lors de toute transaction immobilière (vente ou location). Il comprend la liste des risques auxquels pourrait être exposé un bien de par sa situation géographique (inondations, glissement de terrain, proximité d\’une centrale électrique…). Ce document devra être remis au futur acquéreur ou locataire qui pourra, éventuellement, modifier le montant de la transaction ou l\’annuler.</string>
+    <string name="risques">Durée de validité : 6 mois.</string>
+
+    <string name="energ">Diagnostic de Performance Energétique</string>
+    <string name="energi">Ce diagnostic fait apparaître, sous forme de classification en niveaux, de la consommation énergétique et de CO² ou émission de gaz à effet de serre, d\’un bien immobilier en comparaison avec des situations de référence. \n Il fournira des recommandations ou préconisations de nature à les diminuer. Le diagnostic de Performance énergétique n\’a qu\’une valeur informative et l\’acquéreur ou le locataire ne peut se prévaloir des informations contenues à l\’encontre du propriétaire. \n A compter du 1er Juillet 2007, le DPE est également obligatoire pour le marché locatif et les bâtiments neufs.</string>
+    <string name="energie">Durée de validité : 10 ans.</string>
+
+    <string name="elec">Diagnostic Electricité</string>
+    <string name="elect">Le diagnostic sur l\’état de l\’installation électrique devient obligatoire, en cas de vente, à compter du 1er Janvier 2009 \n Il porte sur les parties privatives de locaux à usage d\’habitation et concerne les installations de plus de 15 ans.\n les mesures adaptées aux contrôles sont définis par la norme FDC 16600.</string>
+    <string name="electr">\nDurée de validité : 3 ans.</string>
+
+    <string name="nom_devis"> DEVIS GRATUIT</string>
+
+    <string name="type_devis"> Type de bien : </string>
+    <string name="type_devis1"> Appartement </string>
+    <string name="type_devis2"> Maison individuel </string>
+    <string name="type_devis3"> Local commercial</string>
+
+    <string name="annee_devis"> Année de construction : </string>
+    <string name="annee_devis1"> Avant 1949</string>
+    <string name="annee_devis2"> Après 1949</string>
+
+    <string name="chauffage_devis"> Type de chauffage : </string>
+    <string name="chauffage_devis1"> Collectif </string>
+    <string name="chauffage_devis2"> Individuel </string>
+
+    <string name="locaux_devis"> Locaux annexes : </string>
+    <string name="locaux_devis1"> Cave </string>
+    <string name="locaux_devis2"> Remise </string>
+    <string name="locaux_devis3"> Parking </string>
+    <string name="postale_devis"> Code postale du bien : </string>
+</resources>

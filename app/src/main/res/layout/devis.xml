@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DeepSkyBlue">
+
+    <TextView
+        style="@style/GrandTitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nom_devis"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        style="@style/TextBlancMoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/type_devis"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/typeRadio">
+
+        <RadioButton
+            style="@style/TextBlancMoy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/type_devis1"
+            android:checked="false"
+            android:textSize="10dp"/>
+
+        <RadioButton
+            style="@style/TextBlancMoy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/type_devis2"
+            android:checked="false"
+            android:textSize="10dp"/>
+
+        <RadioButton
+            style="@style/TextBlancMoy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/type_devis3"
+            android:checked="false"
+            android:textSize="10dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        style="@style/TextBlancMoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/annee_devis"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/anneeRadio">
+
+        <RadioButton
+            style="@style/TextBlancMoy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/annee_devis1"
+            android:checked="false"
+            android:textSize="10dp"/>
+
+        <RadioButton
+            style="@style/TextBlancMoy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/annee_devis2"
+            android:checked="false"
+            android:textSize="10dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        style="@style/TextBlancMoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/chauffage_devis"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioGroup
+        style="@style/TextBlancMoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/chauffageRadio">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chauffage_devis1"
+            android:checked="false"
+            android:textSize="10dp"/>
+
+        <RadioButton
+            style="@style/TextBlancMoy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chauffage_devis2"
+            android:checked="false"
+            android:textSize="10dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        style="@style/TextBlancMoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/locaux_devis"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/locauxRadio">
+
+    <RadioButton
+        style="@style/TextBlancMoy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/locaux_devis1"
+        android:checked="false"
+        android:textSize="10dp"/>
+
+    <RadioButton
+        style="@style/TextBlancMoy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/locaux_devis2"
+        android:checked="false"
+        android:textSize="10dp"/>
+
+    <RadioButton
+        style="@style/TextBlancMoy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/locaux_devis3"
+        android:checked="false"
+        android:textSize="10dp"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/TextBlancMoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/postale_devis"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/codePostale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ex:75005"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/White"
+        android:inputType="number"
+        android:maxLength="5"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/envoyer"
+        android:text="Envoyer"/>
+</LinearLayout>

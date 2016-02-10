@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme1" parent="Theme.AppCompat.Light">
+
+    </style>
+
+    <style name="BackGroundImageView">
+        <item name="android:alpha">0.4</item>
+        <item name="android:scaleType">fitXY</item>
+
+    </style>
+
+    <style name="GrandTitre">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/Gold</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="TextBlancMoy">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="QuestionTitle">
+       <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/Red</item>
+        <item name="android:textSize">18sp</item>
+
+    </style>
+
+    <style name="TitrePresta">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="Reponse">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/DarkGray</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+</resources>

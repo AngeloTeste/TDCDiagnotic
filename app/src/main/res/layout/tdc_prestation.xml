@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/White">
+    
+    <LinearLayout
+        android:layout_marginLeft="5sp"
+        android:id="@+id/debut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pres"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/indi"/>
+    </LinearLayout>
+
+   <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lesBoutons"
+       android:layout_below="@id/debut">
+
+       <LinearLayout android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/carrez"
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:background="@color/transparent"
+            />
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="200sp"
+        android:src="@drawable/carrez"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/amiante"
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:background="@color/transparent"
+            />
+
+         <ImageView
+             android:layout_width="150sp"
+             android:layout_height="200sp"
+             android:src="@drawable/amiante" />
+
+        </FrameLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/plomb"
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:background="@color/transparent"
+            />
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:src="@drawable/plomb"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/gaz"
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:background="@color/transparent"
+            />
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:src="@drawable/gaz" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/electrique"
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:background="@color/transparent"
+            />
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:src="@drawable/elec"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/termite"
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:background="@color/transparent"
+            />
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:src="@drawable/termites" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/risque"
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:background="@color/transparent"
+            />
+
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:src="@drawable/risque"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/energie"
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:background="@color/transparent"
+            />
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:src="@drawable/energie" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+       </LinearLayout>
+
+   </ScrollView>
+
+
+
+    <LinearLayout
+        android:id="@+id/lesBoutons"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:padding="2sp"
+
+        android:weightSum="1">
+
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:id="@+id/accueil"
+                android:background="@color/transparent"
+                />
+
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/accueil"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/loupe"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/transparent"
+                />
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/loupe"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/photo"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/transparent"
+                />
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/photo"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Red">
+            <Button
+                android:id="@+id/prestation"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/transparent"
+                />
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/services"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/contact"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/transparent"
+                />
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mail"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

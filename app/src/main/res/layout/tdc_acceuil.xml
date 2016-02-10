@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/White">
+
+    <TextView
+
+        android:id="@+id/titre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titre"
+        android:textSize="30sp"
+        android:textColor="@color/Gray"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Devis gratuit"
+        android:id="@+id/devis"
+        android:layout_below="@+id/titre"
+        android:background="@color/Red"/>
+
+    <TextView
+        android:layout_marginLeft="5sp"
+        android:id="@+id/enga"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Nos engagements:\n"
+        android:textColor="@color/Red"
+        android:layout_below="@id/devis"/>
+    <TextView
+        android:layout_marginLeft="5sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/engagement"
+        android:layout_below="@id/enga"
+        android:textColor="@color/Black"/>
+
+
+    <ImageView
+        style="@style/BackGroundImageView"
+        android:layout_width="397sp"
+        android:layout_height="418sp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_above="@+id/lesBoutons"
+
+        />
+
+
+    <LinearLayout
+        android:id="@+id/lesBoutons"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.01"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:padding="1sp"
+        android:weightSum="1">
+
+
+
+        <FrameLayout                                        
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:background="@color/Red">
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/Button2"
+            android:background="@color/transparent"
+            />
+            
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/accueil"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/loupe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/diag"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/transparent"
+                />
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/loupe"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/photo"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/transparent"
+                />
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/photo"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/prestation"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/transparent"
+                />
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/services"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/contact"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/transparent"
+                />
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mail"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
